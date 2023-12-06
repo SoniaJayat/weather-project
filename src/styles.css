@@ -1,6 +1,10 @@
 body {
-  background: #f9f7fd;
+  background: #f9f7fe;
   font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #885df1;
 }
 
 .app {
@@ -12,8 +16,13 @@ body {
   border-radius: 16px;
 }
 
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+
 .search-form-input {
-  background: #f9f7fd;
+  background: #f9f7fe;
   border: none;
   border-radius: 6px;
   width: 75%;
@@ -22,11 +31,19 @@ body {
 }
 
 .search-form-button {
-  background: #ff77da;
+  background: #885df1;
   padding: 15px 20px;
   border: none;
   border-radius: 6px;
   color: white;
   font-size: 16px;
   margin-left: 5px;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
 }
