@@ -11,3 +11,22 @@ body {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
 }
+
+.search-form-input {
+  background: #f9f7fd;
+  border: none;
+  border-radius: 6px;
+  width: 75%;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.search-form-button {
+  background: #ff77da;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  margin-left: 5px;
+}
